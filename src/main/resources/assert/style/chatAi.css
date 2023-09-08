@@ -1,0 +1,31 @@
+#backgroundPane{
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#userchatPane{
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
+#chataiPane{
+    -fx-background-color: #D2D2D2;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
+#sendPane{
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#userpanalePane{
+    -fx-background-color: #679CEE;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#newchatPane{
+    -fx-background-color: #294247;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
