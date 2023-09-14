@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: sinhalastuff.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: September 07, 2023 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2023 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see unknown -->
+<category><pattern>HI</pattern>
+<template>Hi how are you?</template>
+</category>
+<category><pattern>MAGE OLUWA RIDENAWA</pattern>
+<template>Oluwe kekkumata boho hethu thiyenna puluwan, Denata panadol dekak bonna. Digatama oluwe kekkuma thiyenawa nam Doctor knk hamuwena eka wada sudusuyi.</template>
+</category>
+<category><pattern>MN HITHANNE MATA DEPRESSION</pattern>
+<template>Depression kiyanne godak common deyk me dawas wala. Mata puluwn oyt udaw krnna denata oyt support ekak widiyata.
+	1. Hodama de nam oyt kathakarala prshna gena kiyanna puluwan kenekta prshna kiyana eka.
+	2. Meditate nathinam bhawana karanna. Bhawana walin manasa nidahas wenawa.
+	3. Lassana sinduwk ahanna. Music kiyanne hodama behethak.
+	4. Oya asa hithena kemak aragena kanna. 
+	5. Movie ekak balanna yanna.</template>
+</category>
+<category><pattern>MATA AHANNA SINDU TIKAK KIYANNA</pattern>
+<template>me dawas wala japriya wagema calm sindu ,
+	 	1. Hithawanthi 
+		2. Mulawe 
+		3. Hanthane 
+		4. Numba ha 
+		5. Sobha 
+		6. Sanasennam Ma
+		7. Wahidaka
+		8. Man Seeruwen
+		9. Rura
+		10. Galana Ganga</template>
+</category>
+<category><pattern>MATA BALANNA HONDA FILMS TIKAK KIYANNA</pattern>
+<template>Me dawas wala hoda films, 
+		1. The Flash 
+		2. Fast X 
+		3. Little Mermaid 
+		4. Jailor 
+		5. Kanda Surindu</template>
+</category>
+<category><pattern>MN DUKIN</pattern>
+<template>Ai e? Mata kiyanna man ahagena innam.</template>
+</category>
+<category><pattern>MN DANNE NE AI KIYALA</pattern>
+<template>Ekata kamak ne. Eka samanya deyak. Mata puluwan oyta sathutu hithenna jokes tikak kiyanna.</template>
+</category>
+<category><pattern>HA</pattern>
+<template>Aliyekwa piyawara thunen fridge ekta danne khmd?</template>
+</category>
+<category><pattern>KOHOMADA</pattern>
+<template>Dora aiya, demma, wahuwa.</template>
+</category>
+</aiml>

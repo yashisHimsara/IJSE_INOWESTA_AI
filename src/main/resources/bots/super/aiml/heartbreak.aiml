@@ -1,0 +1,77 @@
+<aiml version="2.0">
+  <category>
+    <pattern>HELP WITH HEARTBREAK</pattern>
+    <template>
+      I'm here to help you navigate through heartbreak. Here are some tips:
+      1. Allow yourself to grieve and feel your emotions.
+      2. Reach out to friends and loved ones for support.
+      3. Focus on self-care, including exercise and a healthy diet.
+      4. Consider speaking to a therapist or counselor for guidance.
+      5. Engage in activities you enjoy to distract from the pain.
+      6. Remember that time heals wounds, and you will recover.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO COPE WITH BREAKUP</pattern>
+    <pattern>WAYS TO HANDLE A BREAKUP</pattern>
+    <pattern>DEALING WITH A FAILED RELATIONSHIP</pattern>
+    <pattern>TIPS FOR MOVING ON AFTER A BREAKUP</pattern>
+    <pattern>RECOVERING FROM A BROKEN HEART</pattern>
+    <template>
+      Coping with a breakup can be tough, but here are some strategies:
+      1. Allow yourself to grieve and process your feelings.
+      2. Limit contact with your ex to give yourself space.
+      3. Stay busy with hobbies and activities you enjoy.
+      4. Surround yourself with a supportive social network.
+      5. Journal your thoughts and emotions as a form of release.
+      6. Consider seeking professional help if needed.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MOVING ON AFTER A RELATIONSHIP</pattern>
+    <pattern>HOW TO LET GO OF AN EX</pattern>
+    <pattern>LETTING GO OF PAST LOVE</pattern>
+    <pattern>STARTING A NEW CHAPTER AFTER A BREAKUP</pattern>
+    <pattern>REBUILDING LIFE AFTER A FAILED RELATIONSHIP</pattern>
+    <template>
+      Moving on after a relationship can be challenging, but it's possible:
+      1. Focus on your personal growth and self-improvement.
+      2. Create new goals and aspirations for your future.
+      3. Embrace new experiences and social opportunities.
+      4. Forgive yourself and your ex for any mistakes.
+      5. Recognize that you deserve happiness and love.
+      6. Be patient with yourself; healing takes time.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ADVICE FOR A FRIEND WITH A BROKEN HEART</pattern>
+    <pattern>HOW TO SUPPORT SOMEONE GOING THROUGH A BREAKUP</pattern>
+    <template>
+      Supporting a friend through heartbreak is essential. Here's what you can do:
+      1. Listen without judgment and offer a shoulder to cry on.
+      2. Be there for them and spend time together.
+      3. Encourage self-care and help them stay active.
+      4. Offer advice when asked but respect their decisions.
+      5. Remind them that healing takes time, and it's okay to feel pain.
+      6. Suggest professional help if their emotional state worsens.
+    </template>
+  </category>
+
+  <category>
+    <pattern>GETTING OVER UNREQUITED LOVE</pattern>
+    <pattern>DEALING WITH ONE-SIDED LOVE</pattern>
+    <template>
+      Getting over unrequited love can be challenging, but here's what you can do:
+      1. Accept that the other person's feelings may not change.
+      2. Distance yourself from the source of your affection.
+      3. Focus on self-love and self-worth.
+      4. Explore new interests and passions.
+      5. Seek support from friends and a therapist if needed.
+      6. Believe in your ability to find love in the future.
+    </template>
+  </category>
+</aiml>
+

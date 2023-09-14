@@ -1,0 +1,28 @@
+#btnBack{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#btnBack:hover{
+    -fx-background-color: #6769fd;
+}
+
+#vBox{
+    -fx-background-color: white;
+    -fx-padding: 25px;
+    -fx-spacing: 40px;
+}
+#scrollPane{
+    -fx-background-color: white;
+
+}
+
+.reportPane{
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-color: #EEEEEE;
+    -fx-spacing: 20px;
+
+}

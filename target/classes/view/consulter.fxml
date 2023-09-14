@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.zyntech.calmmind.controller.ConsulterFormController">
+   <children>
+      <AnchorPane fx:id="backgroundPane" layoutX="44.0" layoutY="41.0" prefHeight="1004.0" prefWidth="1840.0" stylesheets="@../assert/style/consulter.css">
+         <children>
+            <ImageView fitHeight="420.0" fitWidth="287.0" layoutX="871.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assert/img/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="1005.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <ImageView fitHeight="320.0" fitWidth="324.0" layoutX="858.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assert/img/gghvg.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="1195.0" layoutY="716.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giveing information and helping tho slove patient problems." wrappingWidth="634.0">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Text>
+            <Text layoutX="1178.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Phychiatrist is a medical doctor who specializes in mental health,including substance use disorders" wrappingWidth="634.0">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnCunsulterback" layoutX="1676.0" layoutY="915.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="65.0" prefWidth="138.0" stylesheets="@../assert/style/consulter.css" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <AnchorPane fx:id="consulterwhitePane" layoutX="44.0" layoutY="40.0" prefHeight="1008.0" prefWidth="854.0" stylesheets="@../assert/style/consulter.css">
+         <children>
+            <AnchorPane fx:id="specialistborderPane" layoutX="86.0" layoutY="298.0" prefHeight="276.0" prefWidth="276.0" stylesheets="@../assert/style/consulter.css">
+               <children>
+                  <ImageView fitHeight="243.0" fitWidth="256.0" layoutX="15.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/2713228.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="normalborderPane" layoutX="86.0" layoutY="657.0" prefHeight="276.0" prefWidth="276.0" stylesheets="@../assert/style/consulter.css">
+               <children>
+                  <ImageView fitHeight="243.0" fitWidth="243.0" layoutX="16.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/f8fa05846fcdc631d6bda71503408ff8!320x320.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnSpecialist" layoutX="512.0" layoutY="400.0" mnemonicParsing="false" onAction="#btnSpecialistOnAction" prefHeight="73.0" prefWidth="209.0" stylesheets="@../assert/style/consulter.css" text="Specialist" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNormal" layoutX="512.0" layoutY="759.0" mnemonicParsing="false" onAction="#btnNormalOnAction" prefHeight="73.0" prefWidth="209.0" stylesheets="@../assert/style/consulter.css" text="Normal" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text layoutX="112.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="114.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What do you need ? ">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -94,6 +94,18 @@ public class ChatAiFormController {
 
         String botResponse = chatSession.multisentenceRespond(userMessage);
 
+        System.out.println(botResponse);
+        StringBuilder str = new StringBuilder();
+        int count =0;
+        for (int i = 0; i <botResponse.length(); i++) {
+            boolean b = i % 31.0 == 0;
+            str.append(botResponse.charAt(i));
+            if(b&&i!=0){
+                str.append("\n");
+                count++;
+            }
+        }
+        System.out.println(count);
         HBox hBox1 = new HBox();
         hBox1.setAlignment(Pos.CENTER_LEFT);
         VBox vBox11 = new VBox();
@@ -103,13 +115,29 @@ public class ChatAiFormController {
         imageView1.setFitWidth(70);
         imageView1.setFitHeight(60);
         Label label1 = new Label(botResponse);
+        label1.setWrapText(true);
         label1.getStyleClass().add("message-bubble-bot");
-        label1.setPrefHeight(118);
+        //label1.setWrapText(true);
+
+        if(count>2){
+            double h = (count/2.0)*118;
+            System.out.println(h);
+            label1.setPrefHeight(h);
+            label1.setMaxHeight(h);
+        }else {
+            label1.setPrefHeight(118);
+        }
         label1.setPrefWidth(376);
         vBox11.getChildren().add(imageView1);
         vBox11.getChildren().add(label1);
         hBox1.getChildren().add(vBox11);
-        hBox1.setPrefHeight(139);
+        if(count>2){
+            double h = (count/2.0)*139;
+            hBox1.setPrefHeight(h);
+        }else {
+            hBox1.setPrefHeight(139);
+        }
+
         vBox.getChildren().add(hBox1);
         /*displayUserMessage(userMessage);
         String botResponse = chatSession.multisentenceRespond(userMessage);

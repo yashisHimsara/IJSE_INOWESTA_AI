@@ -1,0 +1,48 @@
+#btnBack{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnBack:hover{
+    -fx-background-color: #6769fd;
+}
+#informationPane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#heartbeatPane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#tempraturePane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#glucosePane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#reportPane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+.reportswallPane{
+    -fx-background-color: white;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#scrollPane{
+    -fx-background-color: transparent;
+
+}

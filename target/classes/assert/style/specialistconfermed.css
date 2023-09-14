@@ -1,0 +1,9 @@
+#btnHome{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnHome:hover{
+    -fx-background-color: #6769fd;
+
+}

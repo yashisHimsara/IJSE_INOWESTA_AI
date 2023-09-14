@@ -1,0 +1,67 @@
+#backgroundPane{
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#userchatPane{
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
+#chataiPane{
+    -fx-background-color: #D2D2D2;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
+#sendPane{
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#userpanalePane{
+    -fx-background-color: #679CEE;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#newchatPane{
+    -fx-background-color: #294247;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
+.message-bubble-user {
+    -fx-background-radius: 0 0 50px 0 ;
+    -fx-border-radius: 0 0 50px 0 ;
+    -fx-background-color: rgba(144, 248, 224, 0.35);
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+}
+.message-bubble-bot {
+    -fx-background-color: rgba(144, 248, 224, 0.35);
+    -fx-background-radius:0  0  0 50px ;
+    -fx-border-radius:0  0  0 50px ;
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+
+}
+HBox,VBox,#scrollPane, ScrollPane AnchorPane{
+    -fx-background-color: #D2D2D2;
+}
+#scrollPane > .scroll-bar {
+    -fx-opacity: 0;
+}
+#btnBackai{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnBackai:hover{
+    -fx-background-color: #6769fd;
+
+}

@@ -1,0 +1,21 @@
+#btnNext{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnNext:hover{
+    -fx-background-color: #6769fd;
+
+}
+
+#txtsignup{
+    -fx-background-radius: 25px;
+    -fx-border-radius: 50px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#backgroundPane1{
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}

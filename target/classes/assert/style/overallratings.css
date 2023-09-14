@@ -1,0 +1,25 @@
+#howwasdayPane{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#howwasmealPane{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#overalldetailsPane{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#howwasdayPane:hover{
+    -fx-background-color: #E3E3E3;
+}
+#howwasmealPane:hover{
+    -fx-background-color: #E3E3E3;
+}

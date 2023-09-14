@@ -1,0 +1,50 @@
+#backgroundPane{
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+
+#searchPane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#btnRefresh{
+    -fx-background-color: transparent;
+}
+#btnOption{
+    -fx-background-color: transparent;
+}
+#chkTick{
+    -fx-background-color: transparent;
+}
+#txtSearch{
+    -fx-background-color: transparent;
+}
+.notificationBar{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+.btnMarkasread{
+    -fx-background-color: transparent;
+}
+.btnDeletenotification{
+    -fx-background-color: transparent;
+}
+#displaynotificationPane{
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#btnnotificationBack{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnnotificationBack:hover{
+    -fx-background-color: #6769fd;
+
+}

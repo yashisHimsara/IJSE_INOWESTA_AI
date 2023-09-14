@@ -1,0 +1,6 @@
+#backgroundPane{
+    -fx-background-color: white;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-effect: dropshadow(gaussian,rgb(0,0,0,4),10,0.2,1,1);
+}

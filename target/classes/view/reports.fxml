@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.zyntech.calmmind.controller.ReportsFormController">
+   <children>
+      <AnchorPane fx:id="backgroundPane" layoutX="43.0" layoutY="47.0" prefHeight="1004.0" prefWidth="1840.0">
+         <children>
+            <AnchorPane fx:id="brainPane" layoutX="295.0" layoutY="213.0" onMouseReleased="#ancMentalHealthOnMousePressed" prefHeight="276.0" prefWidth="386.0" stylesheets="@../assert/style/reports.css">
+               <children>
+                  <ImageView fitHeight="148.0" fitWidth="148.0" layoutX="119.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/icons8-brain.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnnotificationBack" layoutX="1684.0" layoutY="926.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="56.0" prefWidth="135.0" stylesheets="@../assert/style/notification.css" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <AnchorPane fx:id="healthPane" layoutX="1126.0" layoutY="213.0" onMousePressed="#ancHealthOnMousePressed" prefHeight="276.0" prefWidth="386.0" stylesheets="@../assert/style/reports.css">
+               <children>
+                  <ImageView fitHeight="170.0" fitWidth="170.0" layoutX="109.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/icons8-heartbeat.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="evaluationPane" layoutX="712.0" layoutY="596.0" onMousePressed="#ancEvaluationOnPressed" prefHeight="276.0" prefWidth="386.0" stylesheets="@../assert/style/reports.css">
+               <children>
+                  <ImageView fitHeight="170.0" fitWidth="170.0" layoutX="109.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/icons8-evaluation.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Text layoutX="390.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mental Health">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+            <Text layoutX="1275.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+            <Text layoutX="840.0" layoutY="913.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Evaluation">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+         </children>
+         <stylesheets>
+            <URL value="@../assert/style/chatAi.css" />
+            <URL value="@../assert/style/notification.css" />
+         </stylesheets>
+      </AnchorPane>
+      <Text layoutX="112.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

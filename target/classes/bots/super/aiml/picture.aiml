@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: update.aiml -->
+<!-- File: picture.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
 <!-- Last modified: September 15, 2023 -->
 <!--  -->
@@ -15,13 +15,21 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see unknown -->
-<category><pattern>VERSION</pattern>
-<template>S.U.P.E.R. AIML Bot version 0.0.4</template>
+<category><pattern>SHOW ME MOVIES</pattern>
+<template><srai>MOVIE_LIST</srai></template>
 </category>
-<category><pattern>BUILD</pattern>
-<template>Fri Sep 15 02:11:53 IST 2023</template>
-</category>
-<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
-<template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>
+<category><pattern>MOVIE_LIST</pattern>
+<template><random>
+            <li>The Shawshank Redemption</li>
+            <li>The Godfather</li>
+            <li>Pulp Fiction</li>
+            <li>The Dark Knight</li>
+            <li>Schindler's List</li>
+            <li>Forrest Gump</li>
+            <li>Inception</li>
+            <li>The Matrix</li>
+            <li>The Silence of the Lambs</li>
+            <li>The Lord of the Rings: The Fellowship of the Ring</li>
+        </random></template>
 </category>
 </aiml>

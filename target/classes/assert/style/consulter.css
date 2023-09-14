@@ -1,0 +1,47 @@
+#backgroundPane{
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-color: linear-gradient(to right, #ffffff, rgba(0, 102, 255, 0.39));
+}
+#consulterwhitePane{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#specialistborderPane{
+    -fx-background-color: #B0B3B9;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#normalborderPane{
+    -fx-background-color: #B0B3B9;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnSpecialist{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnSpecialist:hover{
+    -fx-background-color: #6769fd;
+}
+#btnNormal{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnNormal:hover{
+    -fx-background-color: #6769fd;
+}
+#btnCunsulterback{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnCunsulterback:hover{
+    -fx-background-color: #6769fd;
+}
+
+

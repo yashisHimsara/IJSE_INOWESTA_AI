@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: sinhala.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: September 11, 2023 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2023 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see unknown -->
+<category><pattern>* EPA WELA *</pattern>
+<template>Api katha karamu. Monada oyata thiyena prashna? Workplace eka awulda? Inna kattiya mona hari kiyanawada oyta?</template>
+</category>
+<category><pattern>* MARENNA+HITHILA *</pattern>
+<template>Api katha karamu. Monada oyata thiyena prashna? Workplace eka awulda? Inna kattiya mona hari kiyanawada oyta?</template>
+</category>
+<category><pattern>MATA WEDA KRNA THENA EPA WELA</pattern>
+<template>Weda krn thena kiyanne tikak stress ena thenak thamai. Oyt puluwan me gena kelinma HR ekath ekka katha karanna. Nathnam mata plwn oya wenuwen anonymus complaint ekak danna. E damme oyagen kiyala kawuruth denaganne ne.</template>
+</category>
+<category><pattern>MATA KIYALA DENNA STRESS MANAGE KARAGANNA WIDIYAK</pattern>
+<template>Stress manage krganna oyt krma godak thiyenawa
+            * oyt plwn sinduwak ahanna. Music kiyanne hoda behethak hitha sansun karaganna.
+            * pothak kiyawanna. Poth kiyawana ekath godak hitha sansun karana wedak. Oya kamathi nam mata puluwan oyt kiyawanna hoda poth list ekak denna.
+            * Oyage diet eka manage karanna. Healthy diet ekak kiyanne oluwata wagema engatath loku nidahasak. Caffeine, Sugar wage dewal godak thiyena kema walin eth wenna. Me kema warga stress eka wedi karanawa khmth.
+            * Hoda nindak labaganna. Ninda thama godakma hethuwa 80% manasika prshna walata. Dawasakata aduma peya 6kwath nindak ganna oni oluwa nidahase thiyenna nam.
+            * Ka ekka hari katha karanna. Godak welawata hithe thiyena dewal ka ekka hri kta klma hithe bara nidahas wenawa.</template>
+</category>
+<category><pattern>MATA HODA POTH TIKAK KIYANNA</pattern>
+<template>Me poth warga godak janapiriyai.
+            * Sherlock Holmes
+            * Kantharaye Kusuma
+            * Pan pasinduwan
+            * Madol Duwa
+            * Senkontan</template>
+</category>
+</aiml>
