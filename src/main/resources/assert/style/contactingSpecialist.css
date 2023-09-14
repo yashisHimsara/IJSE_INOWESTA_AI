@@ -1,0 +1,61 @@
+.listspecial{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+}
+
+.btncontact{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+.btncontact:hover{
+    -fx-background-color: #6769fd;
+}
+
+#btnRequest{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#btnRequest:hover{
+    -fx-background-color: #6769fd;
+}
+
+#btnCancel{
+    -fx-background-color: #FA4040;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#btnCancel:hover{
+    -fx-background-color: #ff0303;
+}
+
+#textPane{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#backgroundPane{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#txtchatPane{
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+
+#txtTyping{
+    -fx-background-color: transparent;
+
+}

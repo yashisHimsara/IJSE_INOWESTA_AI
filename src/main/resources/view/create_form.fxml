@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="createAccountPage" prefHeight="453.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.zyntech.calmmind.controller.CreateFormController">
+   <children>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="441.0" layoutX="6.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="647.0" />
+      <ImageView fitHeight="76.0" fitWidth="47.0" layoutX="141.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/img/noyon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="430.0" fitWidth="295.0" layoutX="358.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../assert/img/create.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="99.0" layoutY="89.0" prefHeight="26.0" prefWidth="133.0" text="Create an Account">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmployeeId" layoutX="58.0" layoutY="118.0" onKeyReleased="#txtEmployeeIdOnKeyReleased" prefHeight="37.0" prefWidth="218.0" promptText="Employee ID" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtName" layoutX="58.0" layoutY="174.0" prefHeight="38.0" prefWidth="218.0" promptText="Name " style="-fx-background-radius: 10;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtPassword" layoutX="58.0" layoutY="230.0" prefHeight="38.0" prefWidth="218.0" promptText="Password" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtConfirmPassword" layoutX="58.0" layoutY="285.0" prefHeight="38.0" prefWidth="218.0" promptText="Confirm a Password" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="10.0" onAction="#backOnAction" style="-fx-background-radius: 100;">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assert/img/icons8-back-button-50.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnCreateAccount" onAction="#btnCreateAccountOnAction" layoutX="114.0" layoutY="349.0" style="-fx-background-color: #54a0ff; -fx-background-radius: 10;" text="Create Account" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.questionAnswer{
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.4), 10, 0.2, 1, 1);
+}
+#btnNext{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnNext:hover{
+    -fx-background-color: #6769fd;
+}

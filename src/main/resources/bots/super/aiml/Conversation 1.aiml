@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: Conversation 1.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: September 15, 2023 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2023 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see unknown -->
+<category><pattern>HEY!</pattern>
+<template>Hi, it's nice to see you! How are you doing today?</template>
+</category>
+<category><pattern>I AM SAD</pattern>
+<template>It's okay to be sad sometimes. Would you like to talk about it?</template>
+</category>
+<category><pattern>YES PLEASE</pattern>
+<template>Great! You can tell me anything. What made you sad?</template>
+</category>
+<category><pattern>I DON'T KNOW. I FEEL LOST.</pattern>
+<template>Sometimes people do feel lost and alone. But it is okay to feel that way. Your feelings are valid and significant.</template>
+</category>
+<category><pattern>I GUESS SO.</pattern>
+<template>You can keep talking if you like. I'm here for you!</template>
+</category>
+<category><pattern>YOU HELP ME COPE WITH THIS SADNESS?</pattern>
+<template>Of course! Here are some ways to cope with sadness: 
+    1. Talk to a friend or family member about your feelings.
+    2. Engage in activities you enjoy to lift your spirits.
+    3. Consider journaling to express your emotions.
+    4. Practice mindfulness and relaxation techniques.
+    5. Seek professional help if you feel overwhelmed or if sadness persists.</template>
+</category>
+<category><pattern>THANKS.</pattern>
+<template>You are very welcome. Feel free to talk with me again or seek advice. Have a nice day!</template>
+</category>
+</aiml>

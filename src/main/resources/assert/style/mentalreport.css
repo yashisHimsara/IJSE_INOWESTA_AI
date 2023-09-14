@@ -1,0 +1,8 @@
+#btnBack{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnBack:hover{
+    -fx-background-color: #6769fd;
+}

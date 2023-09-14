@@ -1,0 +1,21 @@
+#btnBack{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnBack:hover{
+    -fx-background-color: #6769fd;
+}
+#btnSubmit{
+    -fx-background-color: #408AFA;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+#btnSubmit:hover{
+    -fx-background-color: #6769fd;
+}
+
+#txtquestionform{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}

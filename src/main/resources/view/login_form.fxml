@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootNode" prefHeight="453.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.zyntech.calmmind.controller.LoginFormController">
+   <children>
+      <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="441.0" prefWidth="647.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-color: black; -fx-border-radius: 10;">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.8947368264198303" green="0.8284600377082825" blue="0.8284600377082825" />
+               </color>
+            </DropShadow>
+         </effect>
+      </AnchorPane>
+      <TextField fx:id="user_name" layoutX="81.0" layoutY="164.0" prefHeight="35.0" prefWidth="203.0" promptText="Username" style="-fx-background-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="141.0" layoutY="95.0" prefHeight="35.0" prefWidth="66.0" text="Login">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="133.0" prefHeight="18.0" prefWidth="203.0" text="How to get started with Calm Mind" />
+      <ImageView fitHeight="76.0" fitWidth="47.0" layoutX="151.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/img/noyon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="430.0" fitWidth="295.0" layoutX="356.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../assert/img/loginPic.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="142.0" layoutY="280.0" onAction="#loginOnAction" prefHeight="26.0" prefWidth="83.0" style="-fx-background-radius: 10; -fx-background-color: #54a0ff;" text="Login" textFill="#130c0c">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="142.0" layoutY="327.0" onAction="#signUpOnAction" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #54a0ff; -fx-background-radius: 10;" text="Sign Up">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <PasswordField fx:id="password" layoutX="81.0" layoutY="223.0" onAction="#passwordOnAction" prefHeight="35.0" prefWidth="203.0" promptText="Password" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="13.0" />
+         </font></PasswordField>
+   </children>
+</AnchorPane>

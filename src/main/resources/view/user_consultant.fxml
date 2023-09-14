@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.zyntech.calmmind.controller.UserConsultantController">
+   <children>
+      <AnchorPane fx:id="backgroundPane" layoutX="38.0" layoutY="39.0" prefHeight="1000.0" prefWidth="1846.0" style="-fx-border-radius: 30;" stylesheets="@../assert/style/user_consultant.css">
+         <children>
+            <Label layoutX="89.0" layoutY="34.0" prefHeight="142.0" prefWidth="340.0" text="Reports">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="826.0" layoutY="625.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assert/img/evaluation.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="210.0" layoutY="241.0" prefHeight="216.0" prefWidth="183.0" style="-fx-border-color: black;">
+               <graphic>
+                  <ImageView fitHeight="235.0" fitWidth="235.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/icons8-brain-100.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton layoutX="897.0" layoutY="295.0" prefHeight="194.0" prefWidth="182.0">
+               <graphic>
+                  <ImageView fitHeight="214.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assert/img/icons8-health-100.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

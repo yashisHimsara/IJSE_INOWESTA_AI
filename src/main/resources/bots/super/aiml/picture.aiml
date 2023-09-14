@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: picture.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: September 15, 2023 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2023 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see unknown -->
+<category><pattern>SHOW ME MOVIES</pattern>
+<template><srai>MOVIE_LIST</srai></template>
+</category>
+<category><pattern>MOVIE_LIST</pattern>
+<template><random>
+            <li>The Shawshank Redemption</li>
+            <li>The Godfather</li>
+            <li>Pulp Fiction</li>
+            <li>The Dark Knight</li>
+            <li>Schindler's List</li>
+            <li>Forrest Gump</li>
+            <li>Inception</li>
+            <li>The Matrix</li>
+            <li>The Silence of the Lambs</li>
+            <li>The Lord of the Rings: The Fellowship of the Ring</li>
+        </random></template>
+</category>
+</aiml>
